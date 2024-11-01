@@ -1,16 +1,52 @@
-header {
-    text-align: center;
+body {
+    background-color: lightgray !important;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
 }
 
-body{
-    background-color: yellow;
+header {
+    text-align: center;
 }
 
 header img {
     border-radius: 50%;
 }
 
-/*nav li{
-    display: inline;
-}*/
+.navbar-nav {
+    margin: 0 auto;
+}
 
+.navbar-nav li {
+    padding: 0 10px;
+}
+
+#reservationForm {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+
+table.table {
+    background-color: #fff;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+table.table th, table.table td {
+    text-align: center;
+    vertical-align: middle;
+}
+
+table.table th {
+    background-color: #343a40;
+    color: #fff;
+}
+
+table.table tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+}

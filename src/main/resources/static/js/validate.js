@@ -1,4 +1,3 @@
-// js/validate.js
 document.getElementById("reservationForm").addEventListener("submit", function(event) {
     event.preventDefault();
     const username = document.getElementById("username").value;
